@@ -13,3 +13,20 @@ A review of all 21 columns found no missing values.
 | ALL Columns |       0        | Valid  |
 
 Conclusion:- No missing values were identified in the dataset. All 21 Columns contain complete records, indicating good data quality and making the dataset suitable for analysis and dashboard development. 
+
+## 3. Duplicate Analysis
+Duplicate checks were performed on key identifier columns
+  Row ID
+  * Duplicate Records Found: 0
+  * status: Valid
+
+  Order ID
+  * Duplicate ID were Identified.
+  * This is expected because a single order can contain multiple products.
+
+  Product ID
+  * Duplicate Values were identified.
+  * This is expected because the same product can be sold multiple time across different orders
+  
+  Conclusion
+  No Duplicate records found in Row ID column, confirming that each transaction record is uniquely identified. Duplicate Order IDs and      Product ID are valid business scenarios and do not indicate data quality issues.  .
