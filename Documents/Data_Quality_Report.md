@@ -29,4 +29,30 @@ Duplicate checks were performed on key identifier columns
   * This is expected because the same product can be sold multiple time across different orders
   
   Conclusion
-  No Duplicate records found in Row ID column, confirming that each transaction record is uniquely identified. Duplicate Order IDs and      Product ID are valid business scenarios and do not indicate data quality issues.  .
+  No Duplicate records found in Row ID column, confirming that each transaction record is uniquely identified. Duplicate Order IDs and      Product ID are valid business scenarios and do not indicate data quality issues. 
+  
+## 4. Data Type Validation
+
+|# Column Name |# Expected Data Type |# Status|
+|--------------|---------------------|--------|
+|Row ID        |  Integer            |  valid |
+|Order ID      |  Text               |  valid |
+|Order Date    |  Date               |  valid |
+|Ship Date     |  Date               |  valid |
+|Ship Mode     |  Text               |  valid |
+|Customer ID   |  Text               |  valid |
+|Customer Name |  Text               |  valid |
+|Segment       |  Text               |  valid |
+|Country       |  Text               |  valid |
+|City          |  Text               |  valid |
+|State         |  Text               |  valid |
+|Postal Code   |  Text               |  valid |
+|Region        |  Text               |  valid |
+|Product ID    |  Text               |  valid |
+|Category      |  Text               |  valid |
+|Sub-Catgeory  |  Text               |  valid |
+|Product Name  |  Text               |  valid |
+|Sales         |  Decimal            |  valid |
+|Quantity      |  Integer            |  valid |
+|Discount      |  Decimal            |  valid |
+|Profit        |  Decimal            |  valid |
