@@ -41,7 +41,8 @@ from orders;
 --section2: Customer Analysis
 -- ============================================================
 
--- Query 6:  Sales, Profit & Quantity by Segment
+-- Query 1:  Sales, Profit & Quantity by Segment
+
 SELECT
     Segment,
     ROUND(SUM(Sales),2) AS Total_Sales,
@@ -50,6 +51,63 @@ SELECT
 FROM orders
 GROUP BY Segment
 ORDER BY Total_Sales DESC;
+
+-- Query 2: Customer Count by Segment
+
+SELECT 
+	Segment,
+    COUNT(DISTINCT `Customer ID`) as Total_Customers
+    
+FROM orders
+Group by Segment
+Order by Total_Customers desc;
+
+-- Query 3: Average Order Value by Segment
+
+SELECT 
+    Segment,
+    round(AVG(Sales),2) as Avg_Order_Value
+FROM orders
+Group by Segment
+Order by Avg_Order_Value desc;
+
+-- Query 4: Top 10 Customer by Sales
+
+SELECT 
+	`Customer Name`,
+    ROUND(SUM(Sales),2) as Total_Sales
+    
+FROM orders
+Group by `Customer Name`
+Order By Total_Sales desc
+LIMIT 10;
+
+
+-- Query 5:Top 10 Customers by Profit
+
+SELECT 
+    `Customer Name`,
+    ROUND(SUM(Profit), 2) as Total_Profit
+FROM orders
+group by `Customer Name`
+Order by Total_Profit desc
+LIMIT 10;
+
+-- Query 6: Customer with Highest Number of Orders
+
+SELECT 
+	`Customer Name`,
+    count(distinct `Order ID`) as Total_Orders
+    
+FROM orders
+group by `Customer Name`
+order by Total_Orders DESC
+LIMIT 10;
+
+-- Query 7: Top 10 Customers By Quantity Purchase
+
+
+
 
 
 -- =============================================================
