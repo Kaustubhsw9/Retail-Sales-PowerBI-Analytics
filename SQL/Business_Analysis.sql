@@ -1,47 +1,47 @@
 /*
-=========================================================
+-- =========================================================
 Project Name : Retail Sales Analytics
 Dataset      : Sample Superstore
 Author       : Kaustubh Waghmare
 Description  : SQL Exploratory Data Analysis (EDA)
-=========================================================
+-- =========================================================
 */
 
 USE retail_sales_analysis;
 
-=========================================================
+-- =========================================================
 -- Section 1: Business KPIs
-=========================================================
+-- =========================================================
 
---Total Sales
+-- Total Sales
 select round(sum(Sales),2) as Total_Sales
 from orders;
 
---Total Profit 
+-- Total Profit 
 select round(sum(profit),2) as Total_Profit
 from orders;
 
---Total Quality Sold 
+-- Total Quality Sold 
 select sum(Quantity) as Total_Profit
 from orders;
 
---Total Orders
+-- Total Orders
 select COUNT(DISTINCT `Order ID`) as Total_Orders
 from orders;
 
---Total Customers
+-- Total Customers
 select COUNT(DISTINCT `Customer ID`) as Total_Customers
 from orders;
 
---Total Products 
+-- Total Products 
 select count(distinct `Product ID`) as Total_Products
 from orders;
 
-============================================================
+-- ============================================================
 --section2: Customer Analysis
-============================================================
+-- ============================================================
 
---Sales, Profit & Quantity by Segment
+-- Sales, Profit & Quantity by Segment
 SELECT
     Segment,
     ROUND(SUM(Sales),2) AS Total_Sales,
@@ -52,13 +52,13 @@ GROUP BY Segment
 ORDER BY Total_Sales DESC;
 
 
-=============================================================
+-- =============================================================
 -- section 3: Geographic  Analysis
-=============================================================
+-- =============================================================
 
 -- country-wise Sales & Profit
 
-use retail_sales_analysis;
+
 select 
 Country,
 round(sum(Sales),2) as Total_Sales,
@@ -69,7 +69,7 @@ group by Country
 order by Total_Sales desc;
 
 -- State-wise Sales
-use retail_sales_analysis;
+
 select 
 State,
 round(sum(sales),2) as Total_sales
@@ -89,7 +89,7 @@ group by State
 order by Total_Profit desc;
 
 -- Top 10 Cities By Sales 
-use retail_sales_analysis;
+
 
 select 
 City,
