@@ -33,7 +33,7 @@ Duplicate checks were performed on key identifier columns
   
 ## 4. Data Type Validation
 
-|# Column Name |# Expected Data Type |# Status|
+| Column Name  | Expected Data Type  | Status |
 |--------------|---------------------|--------|
 |Row ID        |  Integer            |  valid |
 |Order ID      |  Text               |  valid |
