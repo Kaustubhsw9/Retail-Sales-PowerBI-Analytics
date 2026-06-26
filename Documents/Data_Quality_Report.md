@@ -28,7 +28,7 @@ Duplicate checks were performed on key identifier columns
   * Duplicate Values were identified.
   * This is expected because the same product can be sold multiple time across different orders
   
-  Conclusion
+  # Conclusion:
   No Duplicate records found in Row ID column, confirming that each transaction record is uniquely identified. Duplicate Order IDs and      Product ID are valid business scenarios and do not indicate data quality issues. 
   
 ## 4. Data Type Validation
@@ -71,5 +71,14 @@ The dataset was reviewed to identify unsual or inconsistent values that could af
 | Maximum Discount | 0.8 (80 % ) | Valid |
 | Minimum Quantity | 1           | Valid |
 | Maximum Quantity | 14          | Valid |
+
+# Observation:
+* Sales value are positive, indicating no invalid negative sales transaction.
+* Profit include negative values, which represent loss-making orders and are valid business scenarios.
+* Discount range from 0% to 80%, showing that some orders received significant dicounts.
+* Quality values ranges from 1 to 14 units, which is resonable for retail transactions.
+
+# Conclusion:
+  No data consistency issues were identified. The dataset contains valid business transactions and is suitable for further analysis. 
 
 
