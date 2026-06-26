@@ -56,3 +56,20 @@ Duplicate checks were performed on key identifier columns
 |Quantity      |  Integer            |  valid |
 |Discount      |  Decimal            |  valid |
 |Profit        |  Decimal            |  valid |
+
+
+# Data Consistency Check
+The dataset was reviewed to identify unsual or inconsistent values that could affect the analysis.
+
+|check             | Result      | Status|
+|------------------|-------------|-------|
+| Minimum Sales    | 0.444       | Valid |
+| Maximum Sales    | 22638.48    | Valid |
+| Minimum Profit   | -6599.978   | Valid |
+| Maximum Profit   | 8399.976    | Valid |
+| Minimum Discount | 0           | Valid |
+| Maximum Discount | 0.8 (80 % ) | Valid |
+| Minimum Quantity | 1           | Valid |
+| Maximum Quantity | 14          | Valid |
+
+
