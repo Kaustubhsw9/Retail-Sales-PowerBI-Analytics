@@ -72,7 +72,7 @@ The dataset was reviewed to identify unsual or inconsistent values that could af
 | Minimum Quantity | 1           | Valid |
 | Maximum Quantity | 14          | Valid |
 
-# Observation:
+### Observation:
 * Sales value are positive, indicating no invalid negative sales transaction.
 * Profit include negative values, which represent loss-making orders and are valid business scenarios.
 * Discount range from 0% to 80%, showing that some orders received significant dicounts.
