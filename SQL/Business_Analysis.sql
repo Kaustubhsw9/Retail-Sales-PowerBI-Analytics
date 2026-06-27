@@ -105,52 +105,95 @@ order by Total_Orders DESC
 LIMIT 10;
 
 -- Query 7: Top 10 Customers By Quantity Purchase
-
-
-
-
-
--- =============================================================
--- section 3: Geographic  Analysis
--- =============================================================
-
--- Query 7:  country-wise Sales & Profit
 select 
+	`Customer Name`,
+	sum(Quantity) as Total_Quantity
+FROM orders
+group by `Customer Name`
+order by Total_Quantity DESC
+LIMIT 10;
+
+
+-- =============================================================
+				-- section 3: Geographic  Analysis
+-- =============================================================
+
+
+================================================================
+-- Query 8:  country-wise Sales & Profit
+-- Business Question:
+--Which Country generates the highest sales and profit?
+================================================================	
+SELECT 
     Country,
-    round(sum(Sales),2) as Total_Sales,
-    round(sum(Profit),2) as Total_Profit
-from orders
+    ROUND(sum(Sales),2) as Total_Sales,
+    ROUND(sum(Profit),2) as Total_Profit
+FROM orders
 group by Country 
 order by Total_Sales desc;
 
--- Query 8:  State-wise Sales
 
-select 
+================================================================
+-- Query 9:  State-wise Sales
+-- Business Question:
+-- Which states generate the highest sales revenue?
+================================================================	
+SELECT 
     State,
-    round(sum(sales),2) as Total_sales
-from orders
+    ROUND(sum(sales),2) as Total_sales
+FROM orders
 group by State
 order by Total_Sales desc;
 
--- Query 9:  State-wise Profit
-use retail_sales_analysis;
-select 
+
+-- =============================================================
+-- Query 10: State-wise Profit
+-- Business Question:
+-- Which states generate the highest profit?
+-- =============================================================
+SELECT 
     state,
-    round(sum(Profit),2) as Total_Profit
-from orders
+    ROUND(sum(Profit),2) as Total_Profit
+FROM orders
 group by State
 order by Total_Profit desc;
 
--- Query 10:  Top 10 Cities By Sales 
-
-select 
+-- =============================================================
+-- Query 11: Top 10 Cities by Sales
+-- Business Question:
+-- Which cities generate the highest sales revenue?
+-- =============================================================
+SELECT 
     City,
-    round(sum(Sales),2) as Total_Sales
+    ROUND(sum(Sales),2) as Total_Sales
 
-from orders
+FROM orders
 group by City
 order by Total_Sales desc
-limit 10;
+LIMIT 10;
+
+==============================================================
+-- Query 12: Top 10 Cities by Profit
+-- Business Question:
+-- which cities generate the highest profit?
+==============================================================
+select
+	City,
+	ROUND(SUM(Profit),2) as Total_Profit
+FROM orders
+group by City
+order by Total_Profit desc
+LIMIT 10;
 
 
-
+================================================================
+	-- Quesry 13: Total Orders by State
+	-- Buiness Question:
+	-- Which states have the highest number of orders?
+================================================================
+SELECT 
+	State,
+	COUNT(DISTINCT `Order ID`) as Total_Orders
+FROM orders
+group by State
+order by Total_Orders desc;
