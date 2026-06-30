@@ -1,4 +1,4 @@
-Retail Sales Analysis | SQL + Power BI
+** Retail Sales Analysis | SQL + Power BI **
 
 ** Project Overview
 This project presents an end-to-end Retail Sales Analysis using SQL and Power BI. The Objective is to analyze sales performance, customer behaviour, product performance, geographic trends, shipping efficiency, and discount strategies to generate actionable business insights.
