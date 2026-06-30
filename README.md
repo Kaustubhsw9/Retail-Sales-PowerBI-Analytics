@@ -16,6 +16,8 @@ The project demonstartes the complete analytics workflows, including data cleani
 * Analyze discount patterns across different business dimensions.
 * Build interactive dashboards for business decision-making.
 
+----
+
 ### Tools & Technology
 * SQL (MySQL)
 * Power BI
@@ -23,6 +25,7 @@ The project demonstartes the complete analytics workflows, including data cleani
 * Microsoft Excel
 * Git & GitHub
 
+----
 
 ### Repository Structure
 Retail-Sales_PowerBI-Analytics/
@@ -32,6 +35,8 @@ Retail-Sales_PowerBI-Analytics/
 |-PowerBI_Dashboard
 |-Documents/
 |-README.md
+
+----
 
 ### Dashboard Overview
 #### 1. Reatil Sales Executive Dashboard
@@ -51,6 +56,8 @@ Retail-Sales_PowerBI-Analytics/
    * Sales by Region
    * Sales by State
 
+----
+
 #### 3. Customer Performance Analysis
    Customer-focused dashboard containing:
    
@@ -60,6 +67,8 @@ Retail-Sales_PowerBI-Analytics/
    * Average Order Value
    * Top 10 Customers by Sales
    * Top 10 Customers by Profit
+
+-----
 
 #### 4. Product Performance Analysis
   Product-focused dashboard including:
@@ -71,6 +80,8 @@ Retail-Sales_PowerBI-Analytics/
   * Top 10 Products by Sales
   * Top 10 Products by Profit
 
+----
+
 #### 5. Geographical Sales Analysis
   Location-based business analysis inscluding:
 
@@ -80,6 +91,8 @@ Retail-Sales_PowerBI-Analytics/
   * Profit by Region
   * Orders by State
   * Orders by Region
+
+----
 
 #### 6. Shipping, Time and Discount Analysis
    Operational performance dashboard including:
@@ -92,6 +105,8 @@ Retail-Sales_PowerBI-Analytics/
    * Average Discount by Segment
    * Average Discount by State
    * Average Discount by Ship Mode
+     
+----
 
 ### SQL Business Analysis
 The SQL analysis contains 50+ business-focused queruies grouped into:
@@ -103,6 +118,7 @@ The SQL analysis contains 50+ business-focused queruies grouped into:
    * Time Analysis
    * Discount Analysis
 
+-----
 
 ### Key Business Insights
    * Consumer segment genearte the highest sales.
@@ -112,6 +128,8 @@ The SQL analysis contains 50+ business-focused queruies grouped into:
    * Sales and Profits showed consistent year-over growth.
    * Shipping performance varied across different shipping modes.
    * Discount levels differed by state, segment, and shipping mode.
+
+----
 
 ### Skills Demonstrated 
    * SQL Query Writing
@@ -123,6 +141,8 @@ The SQL analysis contains 50+ business-focused queruies grouped into:
    * KPI Development
    * Data Visaulization
    * Business Storytelling
+
+-----
 
 ### Author 
 #### Kaustubh Waghmare
