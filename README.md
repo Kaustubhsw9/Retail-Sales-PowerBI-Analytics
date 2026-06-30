@@ -1,12 +1,12 @@
-**Retail Sales Analysis | SQL + Power BI**
+# Retail Sales Analysis | SQL + Power BI
 
-** Project Overview
+### Project Overview
 This project presents an end-to-end Retail Sales Analysis using SQL and Power BI. The Objective is to analyze sales performance, customer behaviour, product performance, geographic trends, shipping efficiency, and discount strategies to generate actionable business insights.
 
 The project demonstartes the complete analytics workflows, including data cleaning, SQL-based business analysis, interactive dashboard development, and visualization using Power BI.
 
 
-** Business Objective
+### Business Objective
 * Analyze overall sales and profitability.
 * Identify top-performing customers and products.
 * Understand customer purchasing behaviour.
@@ -15,7 +15,7 @@ The project demonstartes the complete analytics workflows, including data cleani
 * Analyze discount patterns across different business dimensions.
 * Build interactive dashboards for business decision-making.
 
-** Tools & Technology
+### Tools & Technology
 * SQL (MySQL)
 * Power BI
 * DAX
@@ -23,7 +23,7 @@ The project demonstartes the complete analytics workflows, including data cleani
 * Git & GitHub
 
 
-** Repository Structure
+### Repository Structure
 Retail-Sales_PowerNI-ANalytics/
 |
 |-Dataset/
@@ -32,7 +32,7 @@ Retail-Sales_PowerNI-ANalytics/
 |-Documents/
 |-README.md
 
-** Dashboard Overview
+### Dashboard Overview
 1. Reatil Sales Executive Dashboard
    Provides a high-level business overview using key performance indicators including:
    
@@ -92,7 +92,7 @@ Retail-Sales_PowerNI-ANalytics/
    * Average Discount by State
    * Average Discount by Ship Mode
 
-** SQL Business Analysis
+### SQL Business Analysis
 The SQL analysis contains 50+ business-focused queruies grouped into:
 
 * Business KPIs
@@ -114,7 +114,7 @@ Key Business Insights
 * Shipping performance varied across different shipping modes.
 * Discount levels differed by state, segment, and shipping mode.
 
-** Skills Demonstrated 
+### Skills Demonstrated 
 * SQL Query Writing
 * Data Cleaning
 * Business Analysis
