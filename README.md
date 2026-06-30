@@ -29,7 +29,6 @@ The project demonstartes the complete analytics workflows, including data cleani
 
 ### Repository Structure
 Retail-Sales_PowerBI-Analytics/
-|
 |-Dataset/
 |-SQL/
 |-PowerBI_Dashboard
