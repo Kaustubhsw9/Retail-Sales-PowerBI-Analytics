@@ -24,7 +24,7 @@ The project demonstartes the complete analytics workflows, including data cleani
 
 
 ### Repository Structure
-Retail-Sales_PowerNI-ANalytics/
+Retail-Sales_PowerBI-Analytics/
 |
 |-Dataset/
 |-SQL/
@@ -33,7 +33,7 @@ Retail-Sales_PowerNI-ANalytics/
 |-README.md
 
 ### Dashboard Overview
-1. Reatil Sales Executive Dashboard
+#### 1. Reatil Sales Executive Dashboard
    Provides a high-level business overview using key performance indicators including:
    
    * Total Sales
@@ -50,7 +50,7 @@ Retail-Sales_PowerNI-ANalytics/
    * Sales by Region
    * Sales by State
 
-3. Customer Performance Analysis
+#### 3. Customer Performance Analysis
    Customer-focused dashboard containing:
    
    * Sales by Segment
@@ -60,7 +60,7 @@ Retail-Sales_PowerNI-ANalytics/
    * Top 10 Customers by Sales
    * Top 10 Customers by Profit
 
-4. Product Performance Analysis
+#### 4. Product Performance Analysis
   Product-focused dashboard including:
 
   * Sales by Category
@@ -70,7 +70,7 @@ Retail-Sales_PowerNI-ANalytics/
   * Top 10 Products by Sales
   * Top 10 Products by Profit
 
-4. Geographical Sales Analysis
+#### 5. Geographical Sales Analysis
   Location-based business analysis inscluding:
 
   * Sales by State
@@ -80,7 +80,7 @@ Retail-Sales_PowerNI-ANalytics/
   * Orders by State
   * Orders by Region
 
-5. Shipping, Time and Discount Analysis
+#### 6. Shipping, Time and Discount Analysis
    Operational performance dashboard including:
 
    * Sales by Ship Mode
