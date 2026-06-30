@@ -5,7 +5,7 @@ This project presents an end-to-end Retail Sales Analysis using SQL and Power BI
 
 The project demonstartes the complete analytics workflows, including data cleaning, SQL-based business analysis, interactive dashboard development, and visualization using Power BI.
 
----
+----
 
 ### Business Objective
 * Analyze overall sales and profitability.
