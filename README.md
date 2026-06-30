@@ -56,8 +56,6 @@ Retail-Sales_PowerBI-Analytics/
    * Sales by Region
    * Sales by State
 
-----
-
 #### 3. Customer Performance Analysis
    Customer-focused dashboard containing:
    
@@ -67,8 +65,6 @@ Retail-Sales_PowerBI-Analytics/
    * Average Order Value
    * Top 10 Customers by Sales
    * Top 10 Customers by Profit
-
------
 
 #### 4. Product Performance Analysis
   Product-focused dashboard including:
@@ -80,8 +76,6 @@ Retail-Sales_PowerBI-Analytics/
   * Top 10 Products by Sales
   * Top 10 Products by Profit
 
-----
-
 #### 5. Geographical Sales Analysis
   Location-based business analysis inscluding:
 
@@ -91,8 +85,6 @@ Retail-Sales_PowerBI-Analytics/
   * Profit by Region
   * Orders by State
   * Orders by Region
-
-----
 
 #### 6. Shipping, Time and Discount Analysis
    Operational performance dashboard including:
