@@ -124,7 +124,8 @@ The SQL analysis contains 50+ business-focused queruies grouped into:
    * Business Storytelling
 
 ### Author 
-Kaustubh Waghmare
+#### Kaustubh Waghmare
+
 Data Analyst|SQL|Power BI| Excel | Python
 
 
